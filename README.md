@@ -11,7 +11,7 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 
 Siga estes passos para configurar o projeto:
 
-1. Entre na rai do projeto
+1. Entre na raiz do projeto
 
 2. Rode
     ```shell
@@ -19,7 +19,7 @@ Siga estes passos para configurar o projeto:
 
 3. Rode 
     ```shell
-    ng run start
+    npm run start
     
 4. Acesse
     http://localhost:4200/
