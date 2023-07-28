@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="posicao-cadeado">
+    <img class="imgCadeadosPequenos" *ngIf="!cadeadoPequenoUm" src="assets/cadeadoFechado.png" (click)="abrirCadeadoPequenoUm()">
+    <img class="imgCadeadosPequenos" *ngIf="cadeadoPequenoUm" src="assets/cadeadoAberto.png" (click)="fecharCadeadoPequenoUm()">
+
+    <img class="imgCadeadosPequenos" *ngIf="!cadeadoPequenoDois" src="assets/cadeadoFechado.png" (click)="abrirCadeadoPequenoDois()">
+    <img class="imgCadeadosPequenos" *ngIf="cadeadoPequenoDois" src="assets/cadeadoAberto.png" (click)="fecharCadeadoPequenoDois()">
+
+    <img class="imgCadeadosPequenos" *ngIf="!cadeadoPequenoTres" src="assets/cadeadoFechado.png" (click)="abrirCadeadoPequenoTres()">
+    <img class="imgCadeadosPequenos" *ngIf="cadeadoPequenoTres" src="assets/cadeadoAberto.png" (click)="fecharCadeadoPequenoTres()">
+
+    <img class="imgCadeadosGrandes" *ngIf="!cadeadoGrandeAberto" src="assets/cadeadoFechado.png" (click)="abrirCadeadoGrande()">
+    <img class="imgCadeadosGrandes" *ngIf="cadeadoGrandeAberto" src="assets/cadeadoFechado.png" >
+
+  </div>
+</div>

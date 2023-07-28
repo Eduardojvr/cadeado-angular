@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="teclado-container">
+    <img class="imgCadeadosPequenos" *ngIf="!cadeadoPequenoUm" src="assets/cadeadoFechado.png">
+    <img class="imgCadeadosPequenos" *ngIf="cadeadoPequenoUm" src="assets/cadeadoAberto.png">
+
+    <div class="visor">
+      {{ senhaVisor }}
+    </div>
+    <div class="teclado">
+      <button class="btn" (click)="adicionaNumero(1)">1</button>
+      <button class="btn" (click)="adicionaNumero(2)">2</button>
+      <button class="btn" (click)="adicionaNumero(3)">3</button>
+      <button class="btn" (click)="adicionaNumero(4)">4</button>
+      <button class="btn" (click)="adicionaNumero(5)">5</button>
+      <button class="btn" (click)="adicionaNumero(6)">6</button>
+      <button class="btn" (click)="adicionaNumero(7)">7</button>
+      <button class="btn" (click)="adicionaNumero(8)">8</button>
+      <button class="btn" (click)="adicionaNumero(9)">9</button>
+      <button class="btn" (click)="adicionaNumero(0)">0</button>
+    </div>
+  </div>
+</div>
